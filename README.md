@@ -18,7 +18,7 @@ downloads/
   Install-Onyx-Captions.lua   ← the free trial installer (add before launch)
 ```
 
-## Before launch
+## Before launch 
 
 - **Free trial installer:** build it in the extension's repository with `npm run installer` and copy `release/Install Onyx Captions.lua` to `downloads/Install-Onyx-Captions.lua` (no spaces in the web address; browsers still save it as *Install Onyx Captions.lua*). Every *Download free trial* link points there. Keep the file name the same for each release so the links never change.
 - **Polar product:** a one-time $20 product with two benefits: *License Keys* with an activation limit of **2** (the site promises two computers), customers allowed to deactivate activations themselves (the FAQ says they can), and no expiry; and *File Downloads* with the same installer.
