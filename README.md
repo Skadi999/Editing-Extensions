@@ -1,6 +1,6 @@
 # Onyx Captions website
 
-Static landing page for the Onyx Captions DaVinci Resolve extension, hosted on GitHub Pages and used as the store website for Lemon Squeezy.
+Static landing page for the Onyx Captions DaVinci Resolve extension, hosted on GitHub Pages and used as the store website for Polar, the payment provider and Merchant of Record.
 
 No build step — plain HTML, CSS and a little JavaScript.
 
@@ -21,8 +21,8 @@ downloads/
 ## Before launch
 
 - **Free trial installer:** build it in the extension's repository with `npm run installer` and copy `release/Install Onyx Captions.lua` to `downloads/Install-Onyx-Captions.lua` (no spaces in the web address; browsers still save it as *Install Onyx Captions.lua*). Every *Download free trial* link points there. Keep the file name the same for each release so the links never change.
-- **Checkout link:** in `index.html`, the *Get Lifetime License* button needs the product's checkout link from Lemon Squeezy (publish the product, then *Share*). Use the live-mode product's link at launch.
-- **Lemon Squeezy product:** turn on license keys with an activation limit of **2** (the site promises two computers), and attach the same installer as the product's file.
+- **Polar product:** a one-time $20 product with two benefits: *License Keys* with an activation limit of **2** (the site promises two computers), customers allowed to deactivate activations themselves (the FAQ says they can), and no expiry; and *File Downloads* with the same installer.
+- **Checkout link:** the *Get Lifetime License* button in `index.html` uses the product's Polar checkout link (Products › Checkout Links). Create a new link and update it there if you ever change the product.
 - Check that the feature bullets, the compatibility table and the FAQ still match the extension after each release, and that `privacy.html` section 4 matches what the extension sends over the network.
 
 ### Demo video
@@ -52,4 +52,4 @@ Then open http://localhost:8000.
 3. After a minute the site is live at `https://<username>.github.io/<repo>/`.
 4. Optional custom domain: add it under **Settings → Pages → Custom domain** and enable **Enforce HTTPS**.
 
-Use the resulting URL as your store website when activating your Lemon Squeezy store.
+Use the resulting URL as your website in Polar's account review.
